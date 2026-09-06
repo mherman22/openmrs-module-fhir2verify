@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module configVersion="1.6">
+    <id>fhir2verify</id>
+    <name>FHIR2 Verify</name>
+    <version>1.0.0</version>
+    <package>org.openmrs.module.fhir2verify</package>
+    <author>verifier</author>
+    <description>Throwaway module contributing one healthy and one unbuildable @FhirInterceptor bean</description>
+    <activator>org.openmrs.module.fhir2verify.Fhir2VerifyActivator</activator>
+    <require_version>2.4.0</require_version>
+    <require_modules>
+        <require_module>org.openmrs.module.fhir2</require_module>
+    </require_modules>
+</module>
